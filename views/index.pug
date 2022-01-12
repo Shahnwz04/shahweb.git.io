@@ -1,0 +1,52 @@
+doctype html
+html 
+    head 
+        title Dance +  
+        style 
+            include ../static/style.css 
+    body    
+        //- # = id , . = class
+        nav#navbar
+            ul 
+                div#logo 
+                    img(src="../static/stock/logo.png", alt="LOGO")
+                li #[a(href="/") Home]
+                li #[a(href='/') About]
+                li #[a(href='/') Contact]
+                li #[a(href='/') Service]
+                li #[a(href='/') Classes]
+        section#introsection
+            div THE DANCE ACADEMY 
+            div.slogan EAT SLEEP DANCE REPEAT  
+
+        section#missionsection
+            h2 Our Mission
+            div.cards
+            h3  Dance Perfection
+                img(src="../static/stock/2.png", alt="")
+                div.cont 
+                    p We are known for perfection.
+            h3 Dance the way you Like
+                img(src="../static/stock/3.png", alt="" class="hui")
+                div.cont 
+                p All dance teacher available.
+            h3 Expert Teaching
+                img(src="../static/stock/4.png", alt="")
+                div.cont 
+                p The best Teaching Staff in universe.
+
+        section#Sponsorsection
+            h2 Our Sponsors
+            div#sponsor
+                img(src="../static/stock/s2.png", alt="" class="spnsr")
+                img(src="../static/stock/s3.png", alt="" class="spnsr")
+                img(src="../static/stock/s4.png", alt="" class="spnsr")
+                img(src="../static/stock/s5.png", alt="" class="spnsr")
+
+        footer#footer
+            | Copyright © 2021 Shahanx000@gmail.com
+            || All Right Reserved
+
+        script 
+            include ../static/index.js 
+        

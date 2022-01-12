@@ -1,0 +1,109 @@
+#content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    /* height: 500px; */ 
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Yeon Sung';
+    padding-bottom: 20px;
+    color: white;
+}
+.container{
+    background: center/cover no-repeat url("/static/pikist.jpg") ;
+    min-height: 95vh;
+}
+/*                                          left side */
+.left{
+    text-align: center;
+}
+.left h1{
+    padding-left: 310px;
+    padding-right: 230px;
+    color: white;
+    padding-top: 50px;
+    font-size: 26px;
+}
+.left h3{
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    margin-left: 90px;
+    padding-top: 10px;
+}
+.left img{
+    width: 12%;
+    margin-left: 80px;
+    margin-right: 10px;
+    padding-top: 30px;
+    filter: invert(1);
+}
+.left p{
+    color: rgba(255, 255, 255, 0.438);
+    margin: 0px 85px 0 175px;
+    font-size: 0.8rem;
+}
+.left a img{
+    margin-top: 50px;
+}
+
+
+/*                                               Right side */
+.right form{
+    padding-top: 5px;
+    margin-right: 40vh;
+    /* margin-left:20px ; */
+}
+.right form p{
+    margin-top: 20px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.671);
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+.myinput, textarea{
+    padding: 3px 0 3px 8px;
+    width: 400px;
+    border-radius: 8px;
+    border: 2px solid #61a399;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: transparent; */
+    transition: 0.25s;
+}
+.myinput:hover, textarea:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: right;
+}
+.right form .send{
+    margin: 20px;
+    color: white;
+}
+.right form button{
+    margin: 40px 10px 0px 120px;
+    padding: 6px 10px 6px 10px;
+    width: 40%;
+    font-size: 14px;
+    font-weight: 900;
+    color: #437069;
+    background-color: rgba(255, 255, 255, 0.699);
+    border: 2px solid #61a399;
+    border-radius:8px;
+    transition: 0.35s all ease-out;
+}
+.right form button:hover{
+    border: 2px solid rgba(255, 255, 255, 0.767);
+    border-radius:8px;
+    background-color: transparent;
+    /* color: white; */
+}
+

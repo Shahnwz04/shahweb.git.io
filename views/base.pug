@@ -1,0 +1,23 @@
+
+doctype html
+html
+  head
+    title Dance + 
+    block scripts
+      script(src='../static/index.js')
+    block style 
+  body
+    nav#navbar
+            ul 
+                div#logo 
+                    img(src="../static/stock/logo.png", alt="LOGO")
+                li #[a(href="/") Home]
+                li #[a(href='/') About]
+                li #[a(href='/contact') Contact]
+                li #[a(href='/') Service]
+                li #[a(href='/') Classes] 
+
+    block content
+    footer#footer
+            | Copyright © 2021 Shahanx000@gmail.com
+            || All Right Reserved
